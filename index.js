@@ -18,7 +18,7 @@ app.use('/api/productos', require('./routes/producto'));
 
 
 
-app.listen( 4000, () => {
+app.listen( process.env.PORT || 4000, () => {
     console.log( 'El server esta corriendo perfectamente' )
 
 })
