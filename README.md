@@ -1,2 +1,2 @@
-# redes-server
-redes server IIS 20222
+# rds-server
+rds server IIS 2022
